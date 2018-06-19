@@ -2,7 +2,7 @@
 
 def valid_move?(board, index)
   
-  board[index] < 0 || board[index] > 9 || 
+  board[index] < 0 || board[index] > 8 ||  
   
   
 end
