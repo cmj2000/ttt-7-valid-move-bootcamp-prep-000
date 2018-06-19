@@ -2,8 +2,11 @@
 
 def valid_move?(board, index)
   
- if board[index] < 0 || board[index] > 8 ||  position_taken?(board, index)
+ if board[index] < 0 || board[index] > 8 ||  position_taken?(board, index) || board[index] == nil
    return fasle
+    
+  else
+    return true
   
   
 end
